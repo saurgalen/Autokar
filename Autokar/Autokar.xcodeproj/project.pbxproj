@@ -394,7 +394,7 @@
 				INFOPLIST_FILE = NajebanyAutokarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = AutokarTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NajebanyAutokar.app/NajebanyAutokar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autokar.app/Autokar";
 			};
 			name = Debug;
 		};
@@ -409,7 +409,7 @@
 				INFOPLIST_FILE = NajebanyAutokarTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = AutokarTests;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NajebanyAutokar.app/NajebanyAutokar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Autokar.app/Autokar";
 			};
 			name = Release;
 		};

@@ -16,7 +16,7 @@
 		<string>https://github.com/saurgalen/Autokar.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>NajebanyAutokar/Autokar.xcodeproj</string>
+	<string>Autokar/Autokar.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>92156FEC1F6671E7CC8C47B47A61E59C9E4EC939</key>
