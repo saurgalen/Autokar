@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDECD4901A3B1C000003177A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDECD48F1A3B1C000003177A /* main.m */; };
+		FDECD4931A3B1C000003177A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDECD4921A3B1C000003177A /* AppDelegate.m */; };
+		FDECD4961A3B1C000003177A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDECD4951A3B1C000003177A /* ViewController.m */; };
+		FDECD4991A3B1C000003177A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDECD4971A3B1C000003177A /* Main.storyboard */; };
+		FDECD49B1A3B1C000003177A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDECD49A1A3B1C000003177A /* Images.xcassets */; };
+		FDECD49E1A3B1C000003177A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDECD49C1A3B1C000003177A /* LaunchScreen.xib */; };
+		FDECD4AA1A3B1C000003177A /* NajebanyAutokarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDECD4A91A3B1C000003177A /* NajebanyAutokarTests.m */; };
+		FDECD4B61A3B1C5B0003177A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDECD4B51A3B1C5B0003177A /* CoreLocation.framework */; };
+		FDECD4B91A3C55000003177A /* Measurement.m in Sources */ = {isa = PBXBuildFile; fileRef = FDECD4B81A3C55000003177A /* Measurement.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDECD4A41A3B1C000003177A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDECD4821A3B1C000003177A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDECD4891A3B1C000003177A;
+			remoteInfo = NajebanyAutokar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDECD48A1A3B1C000003177A /* Autokar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autokar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDECD48E1A3B1C000003177A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDECD48F1A3B1C000003177A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDECD4911A3B1C000003177A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDECD4921A3B1C000003177A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDECD4941A3B1C000003177A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDECD4951A3B1C000003177A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDECD4981A3B1C000003177A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDECD49A1A3B1C000003177A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FDECD49D1A3B1C000003177A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FDECD4A31A3B1C000003177A /* AutokarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutokarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDECD4A81A3B1C000003177A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDECD4A91A3B1C000003177A /* NajebanyAutokarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NajebanyAutokarTests.m; sourceTree = "<group>"; };
+		FDECD4B51A3B1C5B0003177A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FDECD4B71A3C55000003177A /* Measurement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurement.h; sourceTree = "<group>"; };
+		FDECD4B81A3C55000003177A /* Measurement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Measurement.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDECD4871A3B1C000003177A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDECD4B61A3B1C5B0003177A /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDECD4A01A3B1C000003177A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDECD4811A3B1C000003177A = {
+			isa = PBXGroup;
+			children = (
+				FDECD4B51A3B1C5B0003177A /* CoreLocation.framework */,
+				FDECD48C1A3B1C000003177A /* NajebanyAutokar */,
+				FDECD4A61A3B1C000003177A /* NajebanyAutokarTests */,
+				FDECD48B1A3B1C000003177A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDECD48B1A3B1C000003177A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDECD48A1A3B1C000003177A /* Autokar.app */,
+				FDECD4A31A3B1C000003177A /* AutokarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDECD48C1A3B1C000003177A /* NajebanyAutokar */ = {
+			isa = PBXGroup;
+			children = (
+				FDECD4911A3B1C000003177A /* AppDelegate.h */,
+				FDECD4921A3B1C000003177A /* AppDelegate.m */,
+				FDECD4941A3B1C000003177A /* ViewController.h */,
+				FDECD4951A3B1C000003177A /* ViewController.m */,
+				FDECD4B71A3C55000003177A /* Measurement.h */,
+				FDECD4B81A3C55000003177A /* Measurement.m */,
+				FDECD4971A3B1C000003177A /* Main.storyboard */,
+				FDECD49A1A3B1C000003177A /* Images.xcassets */,
+				FDECD49C1A3B1C000003177A /* LaunchScreen.xib */,
+				FDECD48D1A3B1C000003177A /* Supporting Files */,
+			);
+			path = NajebanyAutokar;
+			sourceTree = "<group>";
+		};
+		FDECD48D1A3B1C000003177A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDECD48E1A3B1C000003177A /* Info.plist */,
+				FDECD48F1A3B1C000003177A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDECD4A61A3B1C000003177A /* NajebanyAutokarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDECD4A91A3B1C000003177A /* NajebanyAutokarTests.m */,
+				FDECD4A71A3B1C000003177A /* Supporting Files */,
+			);
+			path = NajebanyAutokarTests;
+			sourceTree = "<group>";
+		};
+		FDECD4A71A3B1C000003177A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDECD4A81A3B1C000003177A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDECD4891A3B1C000003177A /* Autokar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDECD4AD1A3B1C000003177A /* Build configuration list for PBXNativeTarget "Autokar" */;
+			buildPhases = (
+				FDECD4861A3B1C000003177A /* Sources */,
+				FDECD4871A3B1C000003177A /* Frameworks */,
+				FDECD4881A3B1C000003177A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Autokar;
+			productName = NajebanyAutokar;
+			productReference = FDECD48A1A3B1C000003177A /* Autokar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDECD4A21A3B1C000003177A /* AutokarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDECD4B01A3B1C000003177A /* Build configuration list for PBXNativeTarget "AutokarTests" */;
+			buildPhases = (
+				FDECD49F1A3B1C000003177A /* Sources */,
+				FDECD4A01A3B1C000003177A /* Frameworks */,
+				FDECD4A11A3B1C000003177A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDECD4A51A3B1C000003177A /* PBXTargetDependency */,
+			);
+			name = AutokarTests;
+			productName = NajebanyAutokarTests;
+			productReference = FDECD4A31A3B1C000003177A /* AutokarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDECD4821A3B1C000003177A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Tomatoez;
+				TargetAttributes = {
+					FDECD4891A3B1C000003177A = {
+						CreatedOnToolsVersion = 6.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					FDECD4A21A3B1C000003177A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = FDECD4891A3B1C000003177A;
+					};
+				};
+			};
+			buildConfigurationList = FDECD4851A3B1C000003177A /* Build configuration list for PBXProject "Autokar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDECD4811A3B1C000003177A;
+			productRefGroup = FDECD48B1A3B1C000003177A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDECD4891A3B1C000003177A /* Autokar */,
+				FDECD4A21A3B1C000003177A /* AutokarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDECD4881A3B1C000003177A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDECD4991A3B1C000003177A /* Main.storyboard in Resources */,
+				FDECD49E1A3B1C000003177A /* LaunchScreen.xib in Resources */,
+				FDECD49B1A3B1C000003177A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDECD4A11A3B1C000003177A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDECD4861A3B1C000003177A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDECD4961A3B1C000003177A /* ViewController.m in Sources */,
+				FDECD4931A3B1C000003177A /* AppDelegate.m in Sources */,
+				FDECD4B91A3C55000003177A /* Measurement.m in Sources */,
+				FDECD4901A3B1C000003177A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDECD49F1A3B1C000003177A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDECD4AA1A3B1C000003177A /* NajebanyAutokarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDECD4A51A3B1C000003177A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDECD4891A3B1C000003177A /* Autokar */;
+			targetProxy = FDECD4A41A3B1C000003177A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDECD4971A3B1C000003177A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDECD4981A3B1C000003177A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDECD49C1A3B1C000003177A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDECD49D1A3B1C000003177A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDECD4AB1A3B1C000003177A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FDECD4AC1A3B1C000003177A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDECD4AE1A3B1C000003177A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Piotr Nietrzebka (7V3X8X9T67)";
+				INFOPLIST_FILE = NajebanyAutokar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Autokar;
+				PROVISIONING_PROFILE = "7DFB45F2-C61E-4812-A6E9-531A9061A127";
+			};
+			name = Debug;
+		};
+		FDECD4AF1A3B1C000003177A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Piotr Nietrzebka (7V3X8X9T67)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Piotr Nietrzebka (7V3X8X9T67)";
+				INFOPLIST_FILE = NajebanyAutokar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Autokar;
+				PROVISIONING_PROFILE = "7DFB45F2-C61E-4812-A6E9-531A9061A127";
+			};
+			name = Release;
+		};
+		FDECD4B11A3B1C000003177A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NajebanyAutokarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = AutokarTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NajebanyAutokar.app/NajebanyAutokar";
+			};
+			name = Debug;
+		};
+		FDECD4B21A3B1C000003177A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NajebanyAutokarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = AutokarTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NajebanyAutokar.app/NajebanyAutokar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDECD4851A3B1C000003177A /* Build configuration list for PBXProject "Autokar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDECD4AB1A3B1C000003177A /* Debug */,
+				FDECD4AC1A3B1C000003177A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDECD4AD1A3B1C000003177A /* Build configuration list for PBXNativeTarget "Autokar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDECD4AE1A3B1C000003177A /* Debug */,
+				FDECD4AF1A3B1C000003177A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDECD4B01A3B1C000003177A /* Build configuration list for PBXNativeTarget "AutokarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDECD4B11A3B1C000003177A /* Debug */,
+				FDECD4B21A3B1C000003177A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDECD4821A3B1C000003177A /* Project object */;
+}
