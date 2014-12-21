@@ -72,7 +72,7 @@
     
     
     
-    CGFloat velocity = (distance*36) / (timeDifference*10);
+    CGFloat     velocity = (distance*36) / (timeDifference*10);
 
 
     
@@ -93,13 +93,5 @@
     
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section; {
-
-}
-
-
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath; {
-
-}
 
 @end
