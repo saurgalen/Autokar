@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1833E9411A465BDD004EA99E /* arrow-big-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833E9401A465BDD004EA99E /* arrow-big-02.png */; };
 		FDECD4901A3B1C000003177A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDECD48F1A3B1C000003177A /* main.m */; };
 		FDECD4931A3B1C000003177A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDECD4921A3B1C000003177A /* AppDelegate.m */; };
 		FDECD4961A3B1C000003177A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDECD4951A3B1C000003177A /* ViewController.m */; };
@@ -29,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1833E9401A465BDD004EA99E /* arrow-big-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-big-02.png"; path = "Images/arrow-big-02.png"; sourceTree = "<group>"; };
 		FDECD48A1A3B1C000003177A /* Autokar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autokar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDECD48E1A3B1C000003177A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDECD48F1A3B1C000003177A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1833E9421A465C11004EA99E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1833E9401A465BDD004EA99E /* arrow-big-02.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		FDECD4811A3B1C000003177A = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 		FDECD48C1A3B1C000003177A /* NajebanyAutokar */ = {
 			isa = PBXGroup;
 			children = (
+				1833E9421A465C11004EA99E /* Images */,
 				FDECD4911A3B1C000003177A /* AppDelegate.h */,
 				FDECD4921A3B1C000003177A /* AppDelegate.m */,
 				FDECD4941A3B1C000003177A /* ViewController.h */,
@@ -213,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1833E9411A465BDD004EA99E /* arrow-big-02.png in Resources */,
 				FDECD4991A3B1C000003177A /* Main.storyboard in Resources */,
 				FDECD49E1A3B1C000003177A /* LaunchScreen.xib in Resources */,
 				FDECD49B1A3B1C000003177A /* Images.xcassets in Resources */,

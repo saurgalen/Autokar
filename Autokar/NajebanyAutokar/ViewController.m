@@ -10,7 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import "Measurement.h"
 
-@interface ViewController () <CLLocationManagerDelegate>
+@interface ViewController () <CLLocationManagerDelegate, UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) CLLocationManager *manager;
 @property (nonatomic, strong) NSDate *dateOld;
@@ -19,6 +19,7 @@
 @property (nonatomic, weak) IBOutlet UILabel *labelAverageVelocity;
 @property (nonatomic, strong) NSMutableArray *mesurements;
 @property (nonatomic, strong) Measurement *totalMesurement;
+@property (nonatomic, strong) NSArray *aveCount;
 
 @end
 
@@ -39,6 +40,11 @@
     self.mesurements = [NSMutableArray array];
     
     self.totalMesurement = [[Measurement alloc] init];
+    
+    self.aveCount = _aveCount[0];
+    
+    
+    
 
     
 }
@@ -80,6 +86,20 @@
     self.labelTime.text = [NSString stringWithFormat:@"%f s" ,[self.totalMesurement.timeDifference doubleValue]];
     self.labelDistance.text = [NSString stringWithFormat:@"%f m",[self.totalMesurement.distance doubleValue]];
     self.labelAverageVelocity.text = [NSString stringWithFormat:@"%f km/h", [self.totalMesurement.velocityCalculate doubleValue]];
+    
+    
+    
+    
+    
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section; {
+
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath; {
+
 }
 
 @end
