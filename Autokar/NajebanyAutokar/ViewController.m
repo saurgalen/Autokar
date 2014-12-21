@@ -10,7 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import "Measurement.h"
 
-@interface ViewController () <CLLocationManagerDelegate, UITableViewDataSource, UITableViewDelegate>
+@interface ViewController () <CLLocationManagerDelegate>
 
 @property (nonatomic, strong) CLLocationManager *manager;
 @property (nonatomic, strong) NSDate *dateOld;
@@ -19,7 +19,6 @@
 @property (nonatomic, weak) IBOutlet UILabel *labelAverageVelocity;
 @property (nonatomic, strong) NSMutableArray *mesurements;
 @property (nonatomic, strong) Measurement *totalMesurement;
-@property (nonatomic, strong) NSArray *aveCount;
 
 @end
 
@@ -40,8 +39,6 @@
     self.mesurements = [NSMutableArray array];
     
     self.totalMesurement = [[Measurement alloc] init];
-    
-    self.aveCount = _aveCount[0];
     
     
     
