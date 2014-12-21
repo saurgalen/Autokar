@@ -10,7 +10,7 @@
 #import <CoreLocation/CoreLocation.h>
 #import "Measurement.h"
 
-@interface ViewController () <CLLocationManagerDelegate>
+@interface ViewController () <CLLocationManagerDelegate, UITableViewDataSource, UITableViewDelegate>
 
 @property (nonatomic, strong) CLLocationManager *manager;
 @property (nonatomic, strong) NSDate *dateOld;
@@ -84,8 +84,12 @@
     self.labelDistance.text = [NSString stringWithFormat:@"%f m",[self.totalMesurement.distance doubleValue]];
     self.labelAverageVelocity.text = [NSString stringWithFormat:@"%f km/h", [self.totalMesurement.velocityCalculate doubleValue]];
     
+    //TableView
+    0op9dcIUVW####
+    // Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
+    // Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
     
-    
+    - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath;
     
     
 }
