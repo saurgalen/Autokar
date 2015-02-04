@@ -84,11 +84,35 @@
     self.labelDistance.text = [NSString stringWithFormat:@"%f m",[self.totalMesurement.distance doubleValue]];
     self.labelAverageVelocity.text = [NSString stringWithFormat:@"%f km/h", [self.totalMesurement.velocityCalculate doubleValue]];
     
+    NSIndexPath *indexToInsert = [NSIndexPath indexPathForRow:self.mesurements.count-1 inSection:0];
     
-    
-    
+    [self.tableView insertRowsAtIndexPaths:@[indexToInsert] withRowAnimation:UITableViewRowAnimationAutomatic];
     
 }
+
+
+
+
+#pragma mark tableViewDataSource
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+
+    return self.mesurements.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+
+    UITableViewCell *cell = [[UITableViewCell alloc] init];
+    
+    Measurement *measurementPointer = self.mesurements[indexPath.row];
+    
+    [cell.textLabel setText:[NSString stringWithFormat:@"%f km/h", [measurementPointer.velocityCalculate doubleValue]]];
+
+    
+    return cell;
+
+}
+
 
 
 @end

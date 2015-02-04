@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1833E9411A465BDD004EA99E /* arrow-big-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 1833E9401A465BDD004EA99E /* arrow-big-02.png */; };
+		1837BE851A8262B600B1EA4A /* MeasureMinion.m in Sources */ = {isa = PBXBuildFile; fileRef = 1837BE841A8262B600B1EA4A /* MeasureMinion.m */; };
 		FDECD4901A3B1C000003177A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDECD48F1A3B1C000003177A /* main.m */; };
 		FDECD4931A3B1C000003177A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDECD4921A3B1C000003177A /* AppDelegate.m */; };
 		FDECD4961A3B1C000003177A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDECD4951A3B1C000003177A /* ViewController.m */; };
@@ -31,6 +32,8 @@
 
 /* Begin PBXFileReference section */
 		1833E9401A465BDD004EA99E /* arrow-big-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow-big-02.png"; path = "Images/arrow-big-02.png"; sourceTree = "<group>"; };
+		1837BE831A8262B600B1EA4A /* MeasureMinion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeasureMinion.h; sourceTree = "<group>"; };
+		1837BE841A8262B600B1EA4A /* MeasureMinion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeasureMinion.m; sourceTree = "<group>"; };
 		FDECD48A1A3B1C000003177A /* Autokar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Autokar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDECD48E1A3B1C000003177A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDECD48F1A3B1C000003177A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				FDECD4921A3B1C000003177A /* AppDelegate.m */,
 				FDECD4941A3B1C000003177A /* ViewController.h */,
 				FDECD4951A3B1C000003177A /* ViewController.m */,
+				1837BE831A8262B600B1EA4A /* MeasureMinion.h */,
+				1837BE841A8262B600B1EA4A /* MeasureMinion.m */,
 				FDECD4B71A3C55000003177A /* Measurement.h */,
 				FDECD4B81A3C55000003177A /* Measurement.m */,
 				FDECD4971A3B1C000003177A /* Main.storyboard */,
@@ -188,6 +193,7 @@
 				TargetAttributes = {
 					FDECD4891A3B1C000003177A = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = GUTEGAEK5B;
 						SystemCapabilities = {
 							com.apple.Maps.iOS = {
 								enabled = 0;
@@ -246,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDECD4961A3B1C000003177A /* ViewController.m in Sources */,
+				1837BE851A8262B600B1EA4A /* MeasureMinion.m in Sources */,
 				FDECD4931A3B1C000003177A /* AppDelegate.m in Sources */,
 				FDECD4B91A3C55000003177A /* Measurement.m in Sources */,
 				FDECD4901A3B1C000003177A /* main.m in Sources */,
@@ -370,11 +377,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Piotr Nietrzebka (7V3X8X9T67)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NajebanyAutokar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Autokar;
-				PROVISIONING_PROFILE = "7DFB45F2-C61E-4812-A6E9-531A9061A127";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -382,12 +390,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Piotr Nietrzebka (7V3X8X9T67)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Piotr Nietrzebka (7V3X8X9T67)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = NajebanyAutokar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Autokar;
-				PROVISIONING_PROFILE = "7DFB45F2-C61E-4812-A6E9-531A9061A127";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
